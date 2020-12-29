@@ -47,8 +47,15 @@ const App = () => {
 
   return (
     <div className='App'>
+      <img
+        src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/512px-Facebook_Messenger_logo_2020.svg.png'
+        width={50}
+        height={50}
+        padding={50}
+        alt='messenger'
+      />
       <h1>Messenger clone</h1>
-      <form>
+      <form className='app__form'>
         <FormControl>
           <InputLabel>Type your message</InputLabel>
           <Input
