@@ -6,14 +6,15 @@
 
 .message__user {
   margin-left: auto;
-  color: white;
   text-align: left;
 }
 
 .message__userCard {
+  color: white;
   background-color: #0b81ff;
 }
 
 .message__guestCard {
+  color: black;
   background-color: #e9e9eb;
 }
